@@ -107,7 +107,7 @@ int main()
 	cout << "Конец" << endl << endl;
 
 
-	{cout << "TEEEEEEEEEEESSSSSSSSTTT";
+	{cout << "TEEEEEEEEEEESSSSSSSSTTT\n";
 	
 	test t;
 		
