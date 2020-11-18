@@ -85,7 +85,7 @@ class test : Point {
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "создание потомков";
+	cout << "создание потомков\n";
 	{
 		Point3d* p = new Point3d;
 		Point3d* p2 = new Point3d(10, 20, 30);
@@ -98,7 +98,7 @@ int main()
 	cout<<"Конец"<<endl<<endl;
 
 
-	cout << "помещение в базовый класс потомка";
+	cout << "помещение в базовый класс потомка\n";
 	{
 		Point* p = new Point3d(10, 20, 30);
 		
@@ -107,7 +107,7 @@ int main()
 	cout << "Конец" << endl << endl;
 
 
-	{cout << "TEEEEEEEEEEESSSSSSSSTTT";
+	{cout << "TEEEEEEEEEEESSSSSSSSTTT\n";
 	
 	test t;
 		
